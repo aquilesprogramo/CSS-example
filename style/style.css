@@ -30,7 +30,7 @@ nav ul li a{
     text-decoration: none;
 }
 
-nav ul li a:hover{
+nav ul li:hover{
     background-color: darkred;
 }
 
@@ -38,13 +38,13 @@ nav ul li a:hover{
     display: none;
 }
 
-.submenu:hover{
-    list-style-type: none;
-    display: block;
-    background-color: darkred;
-    box-shadow: opx 8px 0px 16px;
-    z-index: 1;
+.submenu-container:hover > .submenu{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    list-style: none;
 }
+
 
 h1{
     color: black;
