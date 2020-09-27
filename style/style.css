@@ -112,7 +112,7 @@ p{
     width: 33%;
     max-height:225px;
     max-width: 400px;
-    margin-right:50px;
+    margin-right:65px;
 }
 
 .center{
@@ -140,7 +140,7 @@ table, th, td{
 }
 
 .foot{
-    margin-top: 60px;
+    margin-top: 40px;
     overflow: hidden;
     background-color: #E52521;
     color: white;
@@ -165,5 +165,17 @@ a:hover.foot{
     float: right;
 }
 
+li.no{
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.video{
+    margin-left: 400px;
+}
+
+.bot{
+    margin-bottom: 0;
+}
 
 
